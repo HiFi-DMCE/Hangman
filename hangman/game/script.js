@@ -126,8 +126,8 @@ let options = {
 // start
 let wordLists = {
   easy: { 
-    fruits: ["Apple","Banana","Orange",], 
-    animals: ["Cat","Dog","Rabbit",], 
+    fruits: ["Apple","Banana","Orange","Grapes","Fig",], 
+    animals: ["Cat","Dog","Rabbit","Horse","Goat","Sheep","Wolf","Fox"], 
     countries: ["India","China","Brazil",], 
     colors: ["red","green","blue",], 
     currencies: ["dollar","euro","yen",], 
@@ -143,8 +143,8 @@ let wordLists = {
     socials:["whatsapp","instagram","youtube"],
   },
   medium: { 
-    fruits: ["Pineapple","Grapes","Mango",], 
-    animals: ["Elephant","Lion","Tiger",], 
+    fruits: ["Pineapple","Grapes","Mango","Strawberry","Muskmelon"], 
+    animals: ["Elephant","Lion","Tiger","Leopard","Giraffe","Donkey","Rabbit"], 
     countries: ["Australia","Canada","France",], 
     colors: ["purple","gray","brown",], 
     currencies: ["dinar","pound","rupee",], 
@@ -160,7 +160,7 @@ let wordLists = {
     socials:["TikTok","Reddit","telegram","discord"],   
   },
   hard: { 
-    fruits: ["Pomegranate","Durian","Dragonfruit",], 
+    fruits: ["Pomegranate","Durian","Dragonfruit","Pineapple"], 
     animals: ["Rhinoceros","Hippopotamus","Komodo Dragon",], 
     countries: ["Kyrgyzstan","Switzerland","Zimbabwe",], 
     colors: ["silver","peach","magenta",], 

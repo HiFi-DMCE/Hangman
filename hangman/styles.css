@@ -346,7 +346,7 @@ span {
 .popup .form .form-input-element label{
     position: absolute;
     top: 50%;
-    left: 5px;
+    left: 25px;
     transform: translateY(-50%);
     font-size: 1em;
     color: #000;
@@ -392,8 +392,62 @@ span {
 } */
 .i-icon{
     position: absolute;
-    left: 280px;
+    left: -20px;
     font-size: 1.2em;
+    color: #000;
+    line-height: 57px;
+}
+#s1-p-toggle-hide{
+    cursor: pointer;
+    position: absolute;
+    left:280px;
+    top:0px;
+    font-size: 1em;
+    color: #000;
+    line-height: 57px;
+}
+#s1-p-toggle-show{
+    cursor: pointer;
+    position: absolute;
+    left:280px;
+    top:0px;
+    font-size: 1em;
+    color: #000;
+    line-height: 57px;
+}
+#s2-p-toggle-hide{
+    cursor: pointer;
+    position: absolute;
+    left:280px;
+    top:0px;
+    font-size: 1em;
+    color: #000;
+    line-height: 57px;
+}
+#s2-p-toggle-show{
+    cursor: pointer;
+    position: absolute;
+    left:280px;
+    top:0px;
+    font-size: 1em;
+    color: #000;
+    line-height: 57px;
+}
+#l-p-toggle-hide{
+    cursor: pointer;
+    position: absolute;
+    left:280px;
+    top:0px;
+    font-size: 1em;
+    color: #000;
+    line-height: 57px;
+}
+#l-p-toggle-show{
+    cursor: pointer;
+    position: absolute;
+    left:280px;
+    top:0px;
+    font-size: 1em;
     color: #000;
     line-height: 57px;
 }

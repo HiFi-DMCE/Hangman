@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
+    <!-- fontAwesom kit -->
+    <script src="https://kit.fontawesome.com/b6e7d24509.js" crossorigin="anonymous"></script>
     
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -78,8 +80,9 @@
                             </span> -->
                             
                             <input type="password" id="password-L" required name="pass" size="40">
-                            <label for="password-L">
-                                <ion-icon class="i-icon" name="lock"></ion-icon>Password</label>
+                            <label for="password-L"><ion-icon class="i-icon" name="lock"></ion-icon>Password</label>
+                            <i id="l-p-toggle-show" class="fa fa-eye" aria-hidden="true"></i>
+                            <i id="l-p-toggle-hide" class="fa fa-eye-slash" aria-hidden="true"></i>
                         </div>
                         <!-- <div class="form-element">
                             <input type="checkbox" id="remember-me">
@@ -120,11 +123,15 @@
                         
                         <input type="password" id="password-S" required name="password" size="40">
                         <label for="password-S"> <ion-icon class="i-icon" name="lock"></ion-icon>Password</label>
+                        <i id="s1-p-toggle-show" class="fa fa-eye" aria-hidden="true"></i>
+                        <i id="s1-p-toggle-hide" class="fa fa-eye-slash" aria-hidden="true"></i>        
                     </div>
 
                     <div class="form-input-element">
                         <input type="password" id="confirm-password" required name="c-pass" size="40">
                         <label for="confirm-password"> <ion-icon class="i-icon" name="lock"></ion-icon>Confirm Password</label>
+                        <i id="s2-p-toggle-show" class="fa fa-eye" aria-hidden="true"></i>
+                        <i id="s2-p-toggle-hide" class="fa fa-eye-slash" aria-hidden="true"></i>   
                     </div>
 
                     <div class="form-element" >
