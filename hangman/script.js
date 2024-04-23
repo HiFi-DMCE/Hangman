@@ -552,6 +552,78 @@ document.getElementById('logout-span').addEventListener('click', function() {
 
 });
 
+//password visibilty toggle in login/signup
+
+//signup
+document.getElementById('s1-p-toggle-show').addEventListener('click', function() {
+    var passwordInput = document.getElementById('password-S');
+    document.getElementById('s1-p-toggle-show').style.visibility='hidden';
+    document.getElementById('s1-p-toggle-hide').style.visibility='visible';
+
+    if (passwordInput.type === 'password') {
+        passwordInput.type = 'text';
+    } else {
+        passwordInput.type = 'password';
+    }
+});
+document.getElementById('s1-p-toggle-hide').addEventListener('click', function() {
+    var passwordInput = document.getElementById('password-S');
+    document.getElementById('s1-p-toggle-show').style.visibility='visible';
+    document.getElementById('s1-p-toggle-hide').style.visibility='hidden';
+
+    if (passwordInput.type === 'text') {
+        passwordInput.type = 'password';
+    } else {
+        passwordInput.type = 'text';
+    }
+});
+
+document.getElementById('s2-p-toggle-show').addEventListener('click', function() {
+    var passwordInput = document.getElementById('confirm-password');
+    document.getElementById('s2-p-toggle-show').style.visibility='hidden';
+    document.getElementById('s2-p-toggle-hide').style.visibility='visible';
+
+    if (passwordInput.type === 'password') {
+        passwordInput.type = 'text';
+    } else {
+        passwordInput.type = 'password';
+    }
+});
+document.getElementById('s2-p-toggle-hide').addEventListener('click', function() {
+    var passwordInput = document.getElementById('confirm-password');
+    document.getElementById('s2-p-toggle-show').style.visibility='visible';
+    document.getElementById('s2-p-toggle-hide').style.visibility='hidden';
+
+    if (passwordInput.type === 'text') {
+        passwordInput.type = 'password';
+    } else {
+        passwordInput.type = 'text';
+    }
+});
+
+//login
+document.getElementById('l-p-toggle-show').addEventListener('click', function() {
+    var passwordInput = document.getElementById('password-L');
+    document.getElementById('l-p-toggle-show').style.visibility='hidden';
+    document.getElementById('l-p-toggle-hide').style.visibility='visible';
+
+    if (passwordInput.type === 'password') {
+        passwordInput.type = 'text';
+    } else {
+        passwordInput.type = 'password';
+    }
+});
+document.getElementById('l-p-toggle-hide').addEventListener('click', function() {
+    var passwordInput = document.getElementById('password-L');
+    document.getElementById('l-p-toggle-show').style.visibility='visible';
+    document.getElementById('l-p-toggle-hide').style.visibility='hidden';
+
+    if (passwordInput.type === 'text') {
+        passwordInput.type = 'password';
+    } else {
+        passwordInput.type = 'text';
+    }
+});
 
 
 
